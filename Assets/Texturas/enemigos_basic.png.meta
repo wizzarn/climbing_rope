@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: afac398bc1f1dbe45aa4b43b48b57dc8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemigos_basic_cuerpo
+    21300002: enemigos_basic_union
+    21300004: enemigos_basic_helice
+    21300006: enemigos_basic_iman
+    21300008: enemigos_basic_eyes_1
+    21300010: enemigos_basic_anillo
+    21300012: enemigos_basic_eyes_2
+    21300014: enemigos_basic_taladro
+    21300016: enemigos_basic_eyes_3
+    21300018: enemigos_basic_eyes_4
+    21300020: enemigos_basic_canon
+    21300022: enemigos_basic_eyes_6
+    21300024: enemigos_basic_bala
+    21300026: enemigos_basic_eyes_5
+    21300028: enemigos_basic_pieza1
+    21300030: enemigos_basic_pie_cuerpo
+    21300032: enemigos_basic_pieza2
+    21300034: enemigos_basic_pieza3
+    21300036: enemigos_basic_pie_llanta
+    21300038: enemigos_basic_anillo_center
+    21300040: enemigos_basic_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemigos_basic_cuerpo
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 452
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_union
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 475
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: .5, y: -1.14999998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_helice
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 437
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_iman
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 438
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: .5, y: .118391365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_eyes_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 430
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_anillo
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 392
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: .5, y: .950359583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_eyes_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 410
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_taladro
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 348
+        width: 40
+        height: 67
+      alignment: 9
+      pivot: {x: .5, y: .0853890926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_eyes_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 390
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_eyes_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 375
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_canon
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 346
+        width: 56
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_eyes_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 347
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_bala
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_eyes_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 360
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_pieza1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 410
+        width: 18
+        height: 6
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_pie_cuerpo
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 384
+        width: 8
+        height: 32
+      alignment: 9
+      pivot: {x: .5, y: .874799728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_pieza2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 398
+        width: 12
+        height: 5
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_pieza3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 387
+        width: 6
+        height: 5
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_pie_llanta
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 357
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_anillo_center
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 392
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_basic_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 455
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
