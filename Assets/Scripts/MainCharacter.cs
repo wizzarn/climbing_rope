@@ -121,9 +121,9 @@ public class MainCharacter : MonoBehaviour {
 	}
 	void Jump(){
 		if (currentSide == CurrentSide.LEFT) {
-			this.gameObject.GetComponent<Rigidbody2D> ().AddForce (new Vector2 (-13, 1.5f));
+			this.gameObject.GetComponent<Rigidbody2D> ().AddForce (new Vector2 (-19, 1.5f),ForceMode2D.Force);
 		} else if (currentSide == CurrentSide.RIGHT) {
-			this.gameObject.GetComponent<Rigidbody2D> ().AddForce (new Vector2 (13, 1.5f));
+			this.gameObject.GetComponent<Rigidbody2D> ().AddForce (new Vector2 (19, 1.5f),ForceMode2D.Force);
 		}
 		Vector3 velocity = this.GetComponent<Rigidbody2D> ().velocity;
 		if (velocity.y > 1.5f)

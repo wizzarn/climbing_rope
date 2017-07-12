@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraVisibleHandler : MonoBehaviour {
 
-	// Use this for initialization
+	public GameManager gameManager;
 	void Start () {
 		
 	}
@@ -22,6 +22,9 @@ public class CameraVisibleHandler : MonoBehaviour {
 		if (other.gameObject.tag == "main_character" || other.gameObject.tag == "rope_parent") {
 			if (other.gameObject.GetComponentInChildren<ActiveChildren>())
 				other.gameObject.GetComponentInChildren<ActiveChildren> (true).ActivateChildren (false);
+		}
+		if (other.gameObject.tag == "main_character") {
+			gameManager.SetGameOver ();
 		}
 	}
 }
