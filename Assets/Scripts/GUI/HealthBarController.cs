@@ -10,19 +10,19 @@ public class HealthBarController : MonoBehaviour {
 	[Range(0, 100)]
 	public float actualHealt;
 	private Image imageBar;
-
+	GameObject icon;
 	void Awake()
 	{
 		if (Instance != null)
 		{
 			Debug.LogError("Multiple instances of HealthBarController!");
 		}
-		
+		icon = GameObject.Find ("ProgressIcon");
 		Instance = this;
 	}
 
 	void Start() {
-		actualHealt = MaxLife;
+		actualHealt = 0;
 		imageBar = this.GetComponent<Image> ();
 	}
  
@@ -45,15 +45,26 @@ public class HealthBarController : MonoBehaviour {
 	}
 
 
-	public void decraseHealth(float decrease) {
+	public void increaseHealth(float increase) {
 
-		decrease = Mathf.Abs (decrease);
-		actualHealt -= decrease;
+		increase = Mathf.Abs (increase);
+		actualHealt += increase;
 		actualHealt = Mathf.Max (actualHealt, 0);
 
 		if (!imageBar)
 			return;
 		float pointHealth = actualHealt / MaxLife;
 		this.imageBar.fillAmount = pointHealth;
+	}
+	public void setHealth(float points) {
+		actualHealt = points;
+		actualHealt = Mathf.Max (actualHealt, 0);
+
+		if (!imageBar)
+			return;
+		float pointHealth = actualHealt / MaxLife;
+		this.imageBar.fillAmount = pointHealth;
+		if (icon && points < 100)
+			icon.transform.Translate (0, .024f, 0);
 	}
 }
